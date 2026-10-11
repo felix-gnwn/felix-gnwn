@@ -1,19 +1,19 @@
 # Hi, I'm Felix Gunawan 👋
-### Independent Backend Software Engineer
+### Senior / Independent Backend Software Engineer
 
-I specialize in building scalable, low-latency distributed systems, high-concurrency microservices, and robust API architectures using **Go (Golang)**. 
+With nearly 10 years of experience in software engineering, I specialize in building scalable, low-latency distributed systems, high-concurrency microservices, and robust API architectures using **Go (Golang)**. 
 
-My primary focus is on engineering excellence, system resilience, performance tuning, and clean software design patterns.
+My primary focus is on engineering excellence, system resilience, memory/performance tuning, and clean software design patterns.
 
 ---
 
 ### 🛠️ Tech Stack & Expertise
 
-- **Languages:** Go (Golang), SQL
+- **Languages:** Go (Golang), SQL, TypeScript/Node.js, PHP
 - **Architecture & Patterns:** Microservices, Clean Architecture, Event-Driven Architecture, Domain-Driven Design (DDD)
-- **Databases & Caching:** PostgreSQL, Redis (Distributed Caching, Locks, Rate Limiting)
-- **Communication Protocols:** gRPC, Protocol Buffers, RESTful APIs
-- **Infrastructure & Tools:** Docker, Docker Compose, Kubernetes, Git, Linux, Postman
+- **Messaging & Communication:** gRPC, Protocol Buffers, RESTful APIs, RabbitMQ, ZeroMQ, WebSockets
+- **Databases & Caching:** PostgreSQL, MySQL, Redis (Distributed Caching, Locks, Rate Limiting)
+- **Infrastructure & Tools:** Docker, Docker Compose, Kubernetes-Ready Design (Graceful Shutdown, Health Probes), Git, Linux
 
 ---
 
@@ -25,8 +25,14 @@ Below are production-grade implementations exploring advanced backend patterns:
 *A high-throughput, modular microservices engine built in Go.*
 - **Auth & Security Service:** JWT/OAuth2 implementation with RBAC.
 - **Transactional Engine:** Handles race conditions with PostgreSQL locks & Redis distributed locking.
-- **Event Processor:** Asynchronous background job processing via gRPC & worker pools.
+- **Event Processor:** Asynchronous background job processing via RabbitMQ, gRPC & worker pools.
 - **API Gateway:** Distributed rate limiting (Token Bucket) & traffic management.
+
+---
+
+### 🧪 Performance & Profiling Tools
+- **Load Testing:** k6
+- **Profiling & Tuning:** pprof, Go GC tuning
 
 ---
 
